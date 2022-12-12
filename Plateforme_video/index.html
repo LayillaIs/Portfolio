@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoNet</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/assets/images/logo/LogoVideoNet_transparent.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="sticky">
+        <div class="header-top box flex">
+            <div class="header-top-left flex-1 flex flex-center-v">
+                <div class="header-icon" id="collapse">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <a href="#">
+                    <div class="logo">
+                        <img src="/assets/images/logo/Logo+texte_VideoNet.png" alt="Logo VideoNet">
+                    </div>
+                </a>
+            </div>
+            <div class="header-top-center flex-3 flex flex-center-v flex-center-h">
+                <input type="search" placeholder="Rechercher">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="header-top-right flex-1 flex flex-center-v text-center">
+
+                <a href="#" class="flex-1"><i class="fa-regular fa-bell"></i></a>
+                <a href="#" class="flex-1"><i class="fa-solid fa-lock"></i></a>
+                <a href="#" class="flex-1"><i class="fa-regular fa-user"></i></a>
+
+            </div>
+        </div>
+        <nav class="header-left fixed box" id="menu">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Bibliothèque</a></li>
+                <li><a href="#">Compte</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Mettre en ligne</a></li>
+                <li><a href="#">Se connecter</a></li>
+                <li><a href="#">S'inscrire</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container-home-xl">
+        <div class="library-items flex wrap gap-10 flex-center-h">
+            <div class="library-item">
+                <div class="library-video-poster relative">
+                    <img src="/assets/images/posters/poster_cat.jpg" alt="poster video">
+                    <i class="fa-brands fa-youtube absolute center-element"></i>
+                </div>
+                <div class="library-video-meta flex flex-center-v gap-5">
+                    <div class="profile-picture">
+                        <img src="/assets/images/profils/cat-ga184844a5_640.jpg" alt="">
+                    </div>
+                    <div class="video-meta">
+                        <div class="video-title">Comment prendre soin de votre chat ?</div>
+                        <div class="owner-video-fullname">CatAddict</div>
+                        <div class="video-meta-data flex">
+                            <div class="video-meta-views">
+                                32 587 Vues &nbsp;
+                            </div>
+                            <div class="video-meta-time">
+                                &nbsp;il y a 8 mois
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="library-item">
+                <div class="library-video-poster relative">
+                    <img src="/assets/images/posters/4.jpg" alt="poster video">
+                    <i class="fa-brands fa-youtube absolute center-element"></i>
+                </div>
+                <div class="library-video-meta flex flex-center-v gap-5">
+                    <div class="profile-picture">
+                        <img src="/assets/images/profils/profil_woman_red_hair.png" alt="">
+                    </div>
+                    <div class="video-meta">
+                        <div class="video-title">Cours7: Automatisation de votre activité</div>
+                        <div class="owner-video-fullname">Agatha</div>
+                        <div class="video-meta-data flex">
+                            <div class="video-meta-views">
+                                15 201 Vues &nbsp;
+                            </div>
+                            <div class="video-meta-time">
+                                &nbsp;il y a 2 ans
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="library-item">
+                <div class="library-video-poster relative">
+                    <img src="/assets/images/posters/poster_man_smartphone.jpg" alt="poster video">
+                    <i class="fa-brands fa-youtube absolute center-element"></i>
+                </div>
+                <div class="library-video-meta flex flex-center-v gap-5">
+                    <div class="profile-picture">
+                        <img src="/assets/images/profils/profil_man_003.png" alt="">
+                    </div>
+                    <div class="video-meta">
+                        <div class="video-title">Créez vos opportunités professionnelles</div>
+                        <div class="owner-video-fullname">Career Builder</div>
+                        <div class="video-meta-data flex">
+                            <div class="video-meta-views">
+                                542 Vues &nbsp;
+                            </div>
+                            <div class="video-meta-time">
+                                &nbsp;il y a 21 heures
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="library-item">
+                <div class="library-video-poster relative">
+                    <img src="/assets/images/posters/poster_woman.jpg" alt="poster video">
+                    <i class="fa-brands fa-youtube absolute center-element"></i>
+                </div>
+                <div class="library-video-meta flex flex-center-v gap-5">
+                    <div class="profile-picture">
+                        <img src="/assets/images/profils/profil_meditationpng.png" alt="">
+                    </div>
+                    <div class="video-meta">
+                        <div class="video-title">Son de nature relaxant</div>
+                        <div class="owner-video-fullname">Librairie Zen</div>
+                        <div class="video-meta-data flex">
+                            <div class="video-meta-views">
+                                27 599 Vues &nbsp;
+                            </div>
+                            <div class="video-meta-time">
+                                &nbsp;il y a 3 semaines
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="library-item">
+                <div class="library-video-poster relative">
+                    <img src="/assets/images/posters/web-design-g276d953a1_1920.jpg" alt="poster video">
+                    <i class="fa-brands fa-youtube absolute center-element"></i>
+                </div>
+                <div class="library-video-meta flex flex-center-v gap-5">
+                    <div class="profile-picture">
+                        <img src="/assets/images/profils/profil_asian_woman.png" alt="">
+                    </div>
+                    <div class="video-meta">
+                        <div class="video-title">Clonez le reseau social ContactBook en partant de zero</div>
+                        <div class="owner-video-fullname">Web Design</div>
+                        <div class="video-meta-data flex">
+                            <div class="video-meta-views">
+                                250 Vues &nbsp;
+                            </div>
+                            <div class="video-meta-time">
+                                &nbsp;il y a 7 heures
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="library-item">
+                <div class="library-video-poster relative">
+                    <img src="/assets/images/posters/poster_snow.jpg" alt="poster video">
+                    <i class="fa-brands fa-youtube absolute center-element"></i>
+                </div>
+                <div class="library-video-meta flex flex-center-v gap-5">
+                    <div class="profile-picture">
+                        <img src="/assets/images/profils/profil_old_man.png" alt="">
+                    </div>
+                    <div class="video-meta">
+                        <div class="video-title">Bruit de pas sur la neige</div>
+                        <div class="owner-video-fullname">Bibliothèque Sonore</div>
+                        <div class="video-meta-data flex">
+                            <div class="video-meta-views">
+                                80 381 Vues &nbsp;
+                            </div>
+                            <div class="video-meta-time">
+                                &nbsp;il y a 2 ans
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="library-item">
+                <div class="library-video-poster relative">
+                    <img src="/assets/images/posters/poster_woman-network.jpg" alt="poster video">
+                    <i class="fa-brands fa-youtube absolute center-element"></i>
+                </div>
+                <div class="library-video-meta flex flex-center-v gap-5">
+                    <div class="profile-picture">
+                        <img src="/assets/images/profils/profil_man_003.png" alt="">
+                    </div>
+                    <div class="video-meta">
+                        <div class="video-title">Pourquoi avoir un réseau est important ?</div>
+                        <div class="owner-video-fullname">Career Builder</div>
+                        <div class="video-meta-data flex">
+                            <div class="video-meta-views">
+                                1 813 Vues &nbsp;
+                            </div>
+                            <div class="video-meta-time">
+                                &nbsp;il y a 2 mois
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="library-item">
+                <div class="library-video-poster relative">
+                    <img src="/assets/images/posters/volleyball-ga0272a932_1280.jpg" alt="poster video">
+                    <i class="fa-brands fa-youtube absolute center-element"></i>
+                </div>
+                <div class="library-video-meta flex flex-center-v gap-5">
+                    <div class="profile-picture">
+                        <img src="/assets/images/profils/profil_woman_red_dress0.png" alt="">
+                    </div>
+                    <div class="video-meta">
+                        <div class="video-title">Un jour, un sport: Histoire du Volley Ball</div>
+                        <div class="owner-video-fullname">Passion Sport</div>
+                        <div class="video-meta-data flex">
+                            <div class="video-meta-views">
+                                852 152 Vues &nbsp;
+                            </div>
+                            <div class="video-meta-time">
+                                &nbsp;il y a 7 ans
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="library-item">
+                <div class="library-video-poster relative">
+                    <img src="/assets/images/posters/poster_fire.jpg" alt="poster video">
+                    <i class="fa-brands fa-youtube absolute center-element"></i>
+                </div>
+                <div class="library-video-meta flex flex-center-v gap-5">
+                    <div class="profile-picture">
+                        <img src="/assets/images/profils/profil_old_man.png" alt="">
+                    </div>
+                    <div class="video-meta">
+                        <div class="video-title">Crépitement d'un feu de cheminé</div>
+                        <div class="owner-video-fullname">Bibliothèque Sonore</div>
+                        <div class="video-meta-data flex">
+                            <div class="video-meta-views">
+                                52 Vues &nbsp;
+                            </div>
+                            <div class="video-meta-time">
+                                &nbsp;il y a 36 minutes
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="paginate flex flex-center-h gap-5">
+            <div class="paginate-item text-center">&lt;</div>
+            <div class="paginate-item text-center">1</div>
+            <div class="paginate-item text-center active">2</div>
+            <div class="paginate-item text-center">&gt;</div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-header flex flex-center-h flex-center-v gap-10">
+            <i class="fab fa-youtube"></i>
+            <h5>Yestube</h5>
+        </div>
+        <div class="footer-content  footer-content-m">
+            <div class="footer-menu-lists flex flex-center gap-10">
+                <div class="menu-list-item flex-1">
+                    <h5>Product</h5>
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="#">Video Player</a></li>
+                            <li><a href="#">Create</a></li>
+                            <li><a href="#">Live Streaming</a></li>
+                            <li><a href="#">Screen Recorder</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                            <li><a href="#">Monetization</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-list-item flex-1">
+                    <h5>Ressources</h5>
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="#">Helper Center</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Video School</a></li>
+                            <li><a href="#">OTT Ressources</a></li>
+                            <li><a href="#">Developpers</a></li>
+                            <li><a href="#">Students</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-list-item flex-1">
+                    <h5>Affiliate</h5>
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="#">Become a Partner</a></li>
+                            <li><a href="#">Guidelines</a></li>
+                            <li><a href="#">Live Streaming</a></li>
+                            <li><a href="#">Hosting & Management</a></li>
+                            <li><a href="#">Monetization</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-list-item flex-1">
+                    <h5>Quick</h5>
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="#">Live Streaming</a></li>
+                            <li><a href="#">Video Player</a></li>
+                            <li><a href="#">Screen Recorder</a></li>
+                            <li><a href="#">Monetization</a></li>
+                            <li><a href="#">Create</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-list-item flex-1">
+                    <h5>Contact</h5>
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="#">Become a Partner</a></li>
+                            <li><a href="#">Guidelines</a></li>
+                            <li><a href="#">Live Streaming</a></li>
+                            <li><a href="#">Hosting Management</a></li>
+                            <li><a href="#">Monetization</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-social-icon flex">
+                <div class="social-icon flex-1">
+                    <ul class="flex flex-center-v gap-5">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="app-icon flex-1">
+                    <a href="#"><img src="/assets/images/logo/playstore.png" width="150px" alt=""></a>
+                    <a href="#"><img src="/assets/images/logo/apppstore.png" width="150px" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom flex flex-center-h flex-center-v">
+            Copyright &copy; 2022 VideoNet All Rights Reserved.
+        </div>
+    </footer>
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
