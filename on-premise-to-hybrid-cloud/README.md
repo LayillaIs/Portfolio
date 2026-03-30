@@ -23,18 +23,18 @@ ApexTech Solutions, entreprise fictive de développement logiciel, opérait sur 
 
 ## Résultats
 
-✅ Disponibilité mesurée : **99,8%** (seuil requis : 99,5%)
-✅ Synchronisation Entra ID : **< 5 min** (tolérance : 30 min)
-✅ Temps d'authentification moyen : **1,2 seconde**
-✅ Sauvegardes automatiques quotidiennes sans erreur
+✅ Disponibilité mesurée : **99,8%** (seuil requis : 99,5%)  
+✅ Synchronisation Entra ID : **< 5 min** (tolérance : 30 min)  
+✅ Temps d'authentification moyen : **1,2 seconde**  
+✅ Sauvegardes automatiques quotidiennes sans erreur  
 ✅ Basculement domaine contrôleur DC01 → DC02 sans interruption utilisateur
 
 ## Structure du projet
 
-- [`01-architecture.md`](./on-premise-to-hybrid-cloud/01-architecture.md) — Architecture cible et 
+- [`01-architecture.md`](Portfolio/on-premise-to-hybrid-cloud/01-architecture.md) — Architecture cible et 
 choix retenus
-- [`02-realisation.md`](./on-premise-to-hybrid-cloud/02-realisation.md) — Déploiement AD, Entra ID, 
+- [`02-realisation.md`](Portfolio/on-premise-to-hybrid-cloud/02-realisation.md) — Déploiement AD, Entra ID, 
 M365, sécurité, supervision
-- [`03-scripts.md`](./on-premise-to-hybrid-cloud/03-scripts.md) — Scripts PowerShell développés
-- [`04-validation.md`](./on-premise-to-hybrid-cloud/04-validation.md) — Tests, résultats et 
+- [`03-scripts.md`](Portfolio/on-premise-to-hybrid-cloud/03-scripts.md) — Scripts PowerShell développés
+- [`04-validation.md`](Portfolio/on-premise-to-hybrid-cloud/04-validation.md) — Tests, résultats et 
 difficultés rencontrées
