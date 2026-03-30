@@ -31,10 +31,7 @@ ApexTech Solutions, entreprise fictive de développement logiciel, opérait sur 
 
 ## Structure du projet
 
-- [`01-architecture.md`](Portfolio/on-premise-to-hybrid-cloud/01-architecture.md) — Architecture cible et 
-choix retenus
-- [`02-realisation.md`](Portfolio/on-premise-to-hybrid-cloud/02-realisation.md) — Déploiement AD, Entra ID, 
-M365, sécurité, supervision
-- [`03-scripts.md`](Portfolio/on-premise-to-hybrid-cloud/03-scripts.md) — Scripts PowerShell développés
-- [`04-validation.md`](Portfolio/on-premise-to-hybrid-cloud/04-validation.md) — Tests, résultats et 
-difficultés rencontrées
+- [`01-architecture.md`](https://github.com/LayillaIs/Portfolio/blob/Portfolio/on-premise-to-hybrid-cloud/01-architecture.md) — Architecture cible et choix retenus
+- [`02-realisation.md`](https://github.com/LayillaIs/Portfolio/blob/Portfolio/on-premise-to-hybrid-cloud/02-realisation.md) — Déploiement AD, Entra ID, M365, sécurité, supervision
+- [`03-scripts.md`](https://github.com/LayillaIs/Portfolio/blob/Portfolio/on-premise-to-hybrid-cloud/03-scripts.md) — Scripts PowerShell développés
+- [`04-validation.md`](https://github.com/LayillaIs/Portfolio/blob/Portfolio/on-premise-to-hybrid-cloud/04-validation.md) — Tests, résultats et difficultés rencontrées
