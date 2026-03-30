@@ -31,10 +31,10 @@ ApexTech Solutions, entreprise fictive de développement logiciel, opérait sur 
 
 ## Structure du projet
 
-- [`01-architecture.md`](./01-architecture.md) — Architecture cible et 
+- [`01-architecture.md`](./on-premise-to-hybrid-cloud/01-architecture.md) — Architecture cible et 
 choix retenus
-- [`02-realisation.md`](./02-realisation.md) — Déploiement AD, Entra ID, 
+- [`02-realisation.md`](./on-premise-to-hybrid-cloud/02-realisation.md) — Déploiement AD, Entra ID, 
 M365, sécurité, supervision
-- [`03-scripts.md`](./03-scripts.md) — Scripts PowerShell développés
-- [`04-validation.md`](./04-validation.md) — Tests, résultats et 
+- [`03-scripts.md`](./on-premise-to-hybrid-cloud/03-scripts.md) — Scripts PowerShell développés
+- [`04-validation.md`](./on-premise-to-hybrid-cloud/04-validation.md) — Tests, résultats et 
 difficultés rencontrées
