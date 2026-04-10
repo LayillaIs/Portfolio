@@ -2,7 +2,7 @@
 
 ## Vue d'ensemble
 
-Le pipeline GitLab CI/CD est le cœur du projet. Il orchestre l'ensemble du cycle de déploiement, de la validation du code à la machine virtuelle opérationnelle — en **6 stages séquentiels entièrement automatisés**.
+Le pipeline GitLab CI/CD est le cœur du projet. Il orchestre l'ensemble du cycle de déploiement, de la validation du code à la machine virtuelle opérationnelle en **6 stages séquentiels entièrement automatisés**.
 
 Chaque stage doit se terminer avec succès avant que le suivant ne démarre. En cas d'erreur à n'importe quelle étape, le pipeline s'arrête immédiatement, empêchant la propagation d'une configuration défaillante.
 
