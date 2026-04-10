@@ -1,0 +1,15 @@
+# Terraform
+*.tfvars
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Ansible
+*.retry
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
