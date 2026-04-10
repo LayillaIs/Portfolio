@@ -18,7 +18,7 @@ L'infrastructure DevOps mise en place repose sur une architecture distribuée de
 
 ## Workflow de déploiement
 
-![Schéma d'architecture globale](./assets/images/synthese_workflow.png "Architecture globale")
+![Schéma synthèse du workflow](./assets/images/synthese_workflow.png "Schéma synthèse du workflow")
 
 ---
 
@@ -71,7 +71,7 @@ L'intégration Terraform se fait via des appels HTTP authentifiés par **token A
 L'ensemble des machines virtuelles communiquent sur un **réseau dédié isolé**. Chaque VM dispose d'une adresse IP fixe attribuée selon son rôle, calculée automatiquement par Terraform à partir du VMID.
 
 
-![Schéma d'architecture globale](./assets/images/machine_VMs_de_l_infra.png "Architecture globale")
+![tableau VMs de l'infra](./assets/images/VMs_de_l_infra.png "VMs de l'infra")
 > ⚠️ Environnement de laboratoire interne, les adresses IP ne sont pas publiées.
 
 ---
