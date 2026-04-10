@@ -30,7 +30,7 @@ L'**auto-registration** est la fonctionnalité centrale : chaque VM déployée p
    - Rattaché au groupe "CI-DevOps"
          │
          ▼
-5. La VM est visible dans le dashboard ✅
+5. La VM est visible dans le dashboard
    (CPU, mémoire, réseau, Docker — sans aucune action manuelle)
 ```
 
